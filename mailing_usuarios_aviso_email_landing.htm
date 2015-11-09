@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+	<title>Quefo.me! Delivery Online de Comida</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<meta name="description" content="No Quefo.me você encontra e pede online o delivery de comida que você precisa bem perto de você. Pizza, Cachorro Quente, Xis, Hamburguer, Comida chinesa, Sushi, Comida Japonesa e outros tipos de gastronomia.">
+	<meta name="author" content="Quefo.me">
+	<meta name="keywords" content="pedir delivery online,pedir tele online,pedir delivery na internet,site de delivery,Comida,Restaurante,Teleentrega Online,Tele-entrega Online,Delivery Online,Pedidos online,Pedir online,pedidos online,pedir comida,pedir entrega,pedir tele,entrega de comida,entrega de lanches">
+	<!-- ****** favicons do faviconit.com ****** -->
+		<link rel="shortcut icon" href="favicon/Quefo.me.ico?v=v1">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/Quefo.me.ico?v=v1">
+		<link rel="icon" type="image/png" sizes="196x196" href="favicon/Quefo.me-192.png?v=v1">
+		<link rel="icon" type="image/png" sizes="160x160" href="favicon/Quefo.me-160.png?v=v1">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/Quefo.me-96.png?v=v1">
+		<link rel="icon" type="image/png" sizes="64x64" href="favicon/Quefo.me-64.png?v=v1">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/Quefo.me-32.png?v=v1">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/Quefo.me-16.png?v=v1">
+		<link rel="apple-touch-icon" href="favicon/Quefo.me-57.png?v=v1">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/Quefo.me-114.png?v=v1">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/Quefo.me-72.png?v=v1">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/Quefo.me-144.png?v=v1">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/Quefo.me-60.png?v=v1">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/Quefo.me-120.png?v=v1">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/Quefo.me-76.png?v=v1">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/Quefo.me-152.png?v=v1">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/Quefo.me-180.png?v=v1">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="favicon/Quefo.me-144.png?v=v1">
+		<meta name="msapplication-config" content="favicon/browserconfig.xml">
+		<link rel="icon" href="favicon/Quefo.me-32.png?v=v1" type="image/x-icon"> 
+		<link rel="shortcut icon" href="favicon/Quefo.me-32.png?v=v1" type="image/x-icon"> 
+	<!-- ****** favicons do faviconit.com ****** -->	
+</head>
+
+<body>
+
+<div class="hidden">
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			if (document.images) {
+				img1 = new Image();
+				img2 = new Image();
+				img3 = new Image();
+				img4 = new Image();
+				img5 = new Image();
+				img6 = new Image();
+
+				img1.src = "bg/bg_pizza.jpg";
+				img2.src = "bg/bg_hamburguer.jpg";
+				img3.src = "bg/bg_sushi.jpg";
+				img4.src = "bg/bg_costela.jpg";
+				img5.src = "bg/bg_massa2.jpg";
+				img6.src = "bg/bg_salada1.jpg";
+			}
+		//--><!]]>
+	</script>
+</div>
+
+		<div class="logo">
+			<a href="http://www.quefo.me">
+				<img src="logo_quefome_peq_transp.png" alt="Quefo.me - Peça comida online" title="Quefo.me - Peça comida online">
+			</a>
+		</div>
+
+		
+		<center>	
+			<div class="chamada_mailchimp">
+				Quase no final...
+			</div>
+			<br><br>
+			<div class="aviso_email_mailchimp">
+				Para confirmar a assinatura, abra seu e-mail
+				<br>
+				e clique no link que acabamos de enviar para você...
+			</div>
+		</center>
+	
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<!-- <script src="js/bootstrap.min.js"></script> -->
+		<script type="text/javascript">
+			var backgrounds = [
+				"bg/bg_pizza.jpg",
+				"bg/bg_hamburguer.jpg",
+				"bg/bg_sushi.jpg",
+				"bg/bg_costela.jpg",
+				"bg/bg_massa2.jpg",
+				"bg/bg_salada1.jpg"
+			];
+
+			var currentBackground = 0;
+
+			function changeBackground() {
+				if (!backgrounds[currentBackground]) {
+					currentBackground = 0;
+				}
+
+				console.log(currentBackground);
+				console.log(backgrounds[currentBackground]);
+
+				$("body").css("background-image", "url(" + backgrounds[currentBackground] + ")");
+				currentBackground++;
+				
+				setTimeout(changeBackground, 5000);
+			};
+
+			changeBackground();
+		</script>
+
+</body>
+</html>
